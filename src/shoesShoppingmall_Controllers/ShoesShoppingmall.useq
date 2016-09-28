@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.10" icons="true">  
+  <object id="1" language="java" name="shoesShoppingmall_Controllers.Controllers" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/Controllers.java" binary="false" label="controllers" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="452" y="0"/>    
+    <execution id="2">      
+      <position height="66" width="137" x="146" y="175"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="63" width="137" x="5" y="260"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="66" width="137" x="5" y="358"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="21" width="137" x="5" y="498"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="63" width="137" x="5" y="621"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="shoesShoppingmall_Controllers.LoginController" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/LoginController.java" binary="false" 
+    label="loginController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="622" y="0"/>    
+    <execution id="16">      
+      <position height="105" width="137" x="146" y="600"/>    
+    </execution>    
+    <execution id="14">      
+      <position height="21" width="7" x="211" y="642"/>    
+    </execution>  
+  </object>  
+  <object id="18" language="java" name="shoesShoppingmall_Controllers.OrderController" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/OrderController.java" binary="false" 
+    label="orderController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="679" y="0"/>    
+    <execution id="19">      
+      <position height="63" width="137" x="287" y="477"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="shoesShoppingmall_Controllers.ShoesController" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/ShoesController.java" binary="false" 
+    label="shoesController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="812" y="0"/>    
+    <execution id="22">      
+      <position height="108" width="137" x="428" y="337"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="7" x="493" y="382"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="shoesShoppingmall_Controllers.UserController" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/UserController.java" binary="false" 
+    label="userController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="993" y="0"/>    
+    <execution id="25">      
+      <position height="105" width="137" x="569" y="239"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="21" width="7" x="634" y="281"/>    
+    </execution>  
+  </object>  
+  <object id="27" language="java" name="shoesShoppingmall_Controllers.AdminController" project="shoesShoppingmal_03" 
+    file="/shoesShoppingmal_03/src/shoesShoppingmall_Controllers/AdminController.java" binary="false" 
+    label="adminController" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="433" y="0"/>    
+    <execution id="28">      
+      <position height="108" width="137" x="5" y="154"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="21" width="7" x="775" y="199"/>    
+    </execution>  
+  </object>  
+  <message id="3" asynchronous="false">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" asynchronous="false">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" asynchronous="false">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="13" asynchronous="false">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="14"/>  
+  </message>  
+  <message id="17" asynchronous="false">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="20" asynchronous="false">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </message>  
+  <message id="23" asynchronous="false">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="26" asynchronous="false">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="5"/>  
+  </message>  
+  <message id="29" asynchronous="false">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="2"/>  
+  </message>
+</sequence-diagram>
